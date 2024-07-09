@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+/* just coloring my name */
+span{
+    color: orangered;
+}
+
+/* the following code will be an amalgamation of attempts to put button and name far away from each other */
+
+.Name-and-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+h1>span{
+    margin-left: 50px;
+    
+}
+
+/* **************It is sharable *******/
+.btn{
+    padding: 20px 66px;
+    border: 2px solid black;
+     
+    border-radius: 10px;
+    margin-right: 50px;
+} 
+
+.btn-2{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.otaku-page{
+    width: 1300px;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png") ;
+    margin: 0 auto;
+}
+
+.computer-boy img{
+    width: 300px;
+    height: 300px;
+}
+.computer-boy{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
