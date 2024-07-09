@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-size: 24px;
 }
 
 /* just coloring my name */
@@ -12,7 +13,7 @@ span{
 .Name-and-button{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h1>span{
@@ -32,12 +33,15 @@ h1>span{
 .btn-2{
     background-color: black;
     color: whitesmoke;
+    margin-top: 20px;
+
 }
 
 .otaku-page{
-    width: 1300px;
+    width: 900px;
     height: 652px;
     background-image: url("../assets/Hero-bg.png") ;
+    background-repeat: no-repeat;
     margin: 0 auto;
 }
 
@@ -48,7 +52,16 @@ h1>span{
 .computer-boy{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+/* the end of otaku section */
+
+#second{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
 }
