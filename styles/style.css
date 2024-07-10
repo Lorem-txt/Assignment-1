@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     font-size: 20px;
@@ -221,4 +223,32 @@ p{
 
 .final-text>h1{
     margin-left: 10px;
+}
+
+
+#Final{
+    height: 700px;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;  
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+}
+
+.help {
+    font-style: Bold;
+    font-size: 32px;
+    font-weight : 700px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help>h1{
+    font-size: 100px;
 }
