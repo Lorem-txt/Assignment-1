@@ -194,3 +194,31 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+
+.width-margin{
+    height: 200px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.final-card{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: left;
+    align-items: left;
+    width: 100%;}
+
+.final-text{
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.final-text>h1{
+    margin-left: 10px;
+}
