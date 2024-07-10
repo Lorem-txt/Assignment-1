@@ -110,6 +110,8 @@ h1>span{
     font-weight: 900;
     margin-top: 150px;
     margin-bottom: 20px;
+    background-color: whitesmoke;
+    border-radius: 10%;
 }
 p{
     font-size: 20px;
@@ -138,6 +140,7 @@ p{
     gap: 10px;
     margin-top: 50px;
     margin-bottom: 20px;
+    background-color: whitesmoke;
 }
 
 
@@ -178,3 +181,16 @@ p{
  background-color: rgba(255, 223, 0, 0.05);
 }
 
+.mother-div{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.child-div>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
